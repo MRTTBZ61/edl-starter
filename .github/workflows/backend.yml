@@ -16,7 +16,7 @@ jobs:
 
       # TODO : Setup Python 3.11 avec cache pip
       - name: Setup Python
-      - uses: actions/setup-python@v7
+        uses: actions/setup-python@v7
         with:
           python-version: '3.11' 
           cache: 'pip'
