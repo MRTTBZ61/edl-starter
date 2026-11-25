@@ -14,7 +14,6 @@ public class Surface {
      * @return Surface (a * b)
      */
     public static int surf(int a, int b) {
-        // TODO: Retourner Produit.mult(a, b)
-        return 0;
+        return Produit.mult(a, b);
     }
 }

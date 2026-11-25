@@ -29,7 +29,8 @@ public class MoneyTest {
     /** currency() renvoie la devise donnée au constructeur. */
     @Test
     public void testCurrency() {
-        fail("Test à écrire");
+        Money instance = new Money(12, "EUR");
+        assertEquals("EUR", instance.currency());
     }
 
     /**
@@ -37,8 +38,8 @@ public class MoneyTest {
      * Indice : @Test(expected = Exception.class) fait passer le test
      * seulement si l'exception est levée.
      */
-    @Test
+    @Test(expected = Exception.class)
     public void testAddDifferentCurrency() throws Exception {
-        fail("Test à écrire");
+        new Money(12, "EUR").add(new Money(5, "USD"));
     }
 }

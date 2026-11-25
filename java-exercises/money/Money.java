@@ -34,6 +34,10 @@ public class Money {
      * @throws Exception si les devises sont différentes
      */
     public Money add(Money m) throws Exception {
-        return null;
+        if (mCurrency.equals(m.currency())) {
+            return new Money(mAmount + m.amount(), mCurrency);
+        } else {
+            throw new Exception("Devises différentes");
+        }
     }
 }

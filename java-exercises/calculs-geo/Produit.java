@@ -12,7 +12,6 @@ public class Produit {
      * @return a * b
      */
     public static int mult(int a, int b) {
-        // TODO: Retourner le produit de a et b
-        return 0;
+        return (a * b);
     }
 }
