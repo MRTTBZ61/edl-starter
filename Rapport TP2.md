@@ -1,7 +1,5 @@
 # 🚀 Rapport TP 2 : CI/CD avec GitHub Actions
 
-## ⚙️ Prérequis : Vérifier la connexion GitHub
-
 ---
 
 ## ✍️ Exercice 1 : Workflow Backend
@@ -231,7 +229,7 @@ Sur la Pull Request, `E2E Tests` est bien ignoré (*skipped*) tandis que `Unit T
 
 ### 1. Modification de `README.md`
 
-On ajoute en haut du fichier `README.md` le badge Markdown pointant vers `.github/workflows/ci-pipeline.yml/badge.svg` sur notre dépôt GitHub.
+On ajoute en haut du fichier `README.md` le badge Markdown pointant vers `action/workflows/ci-pipeline.yml/badge.svg` sur notre dépôt GitHub.
 
 ### 2. Résultat du badge sur GitHub
 
